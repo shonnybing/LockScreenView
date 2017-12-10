@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="LockScreenViewGroup">
+        <attr name="itemCount" format="integer"/>
+        <attr name="smallRadius" format="dimension"/>
+        <attr name="bigRadius" format="dimension"/>
+        <attr name="normalColor" format="color"/>
+        <attr name="rightColor" format="color"/>
+        <attr name="wrongColor" format="color"/>
+    </declare-styleable>
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/ll"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.lenovo.lockscreenview.MainActivity"
+    android:orientation="vertical">
+
+   <com.example.lenovo.lockscreenview.LockScreenViewGroup
+       android:id="@+id/lockScreenViewGroup"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       app:normalColor="#666666"
+       app:smallRadius="8dp"
+       app:bigRadius="16dp"
+       app:rightColor="#33FF66"
+       app:wrongColor="#FF3333"/>
+
+</LinearLayout>
